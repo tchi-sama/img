@@ -28,11 +28,13 @@ const Home = () => {
                     <Text><Text style={tw`font-black`}>Someone </Text> is proud</Text>
                 </View>
             </View>
-            <View style={tw`h-6 w-full bg-gray-300 rounded-full`}>
-                <View style={[{width:"40%"},tw`h-full bg-gray-800 rounded-l-full`]}></View>
+            <View style={tw`h-10 relative w-full bg-gray-300 rounded-full `}>
+                <View style={[{width:"40%"},tw`h-full bg-gray-800 border-r-[6px] border-gray-400 rounded-l-full`]}></View>
+                <Text style={tw`absolute top-[25%] text-white left-4 `}>123</Text>
+                <Text style={tw`absolute top-[25%] text-gray-800 right-4 `}>123</Text>
             </View>
             <View style={tw`py-2 flex-row justify-between`}>
-                <Text style={tw`font-black text-lg`}>I'm Gays</Text>
+                <Text style={tw`font-black text-lg`}>I'm Gay</Text>
                 <Text style={tw`font-black text-lg`}>I'm Not</Text>
             </View>
         </View>
